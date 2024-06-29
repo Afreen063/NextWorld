@@ -1,0 +1,82 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  min-width: 64rem;
+  width: auto;
+}
+.search {
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  width: 1.2rem;
+}
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20px;
+}
+
+.line {
+  width: 30px;
+  height: 2.5px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.line2 {
+  width: 20px; /* The middle line is half the width of the others */
+  align-self: left; /* Center the middle line */
+}
+.logo-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.logo {
+  font-family: playfair-display, serif;
+  width: 3rem;
+  color: rgba(0, 0, 0, 1);
+}
+.logo-2 {
+  margin-top: 2rem;
+  margin-left: -0.5rem;
+}
+.b {
+  font-size: 5rem;
+}
+.o {
+  font-size: 4rem;
+}
+.c {
+  font-size: 4rem;
+  margin-left: -2rem;
+}
+.p {
+  font-size: 4rem;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: 2rem;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  transition: border-bottom 0.3s ease-in-out;
+}
+.navbar-links a.active-link {
+  border-bottom: 2px solid black;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 1);
+}

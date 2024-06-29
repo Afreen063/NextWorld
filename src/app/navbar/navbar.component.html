@@ -1,0 +1,92 @@
+<nav class="navbar">
+  <ul class="navbar-links">
+    <li>
+      <div class="menu-icon">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </li>
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('home')"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/about_us"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('about_us')"
+        >About us</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/manufaturer"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('manufaturer')"
+        >Manufaturer</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/products"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('products')"
+        >Products</a
+      >
+    </li>
+  </ul>
+  <div class="logo-1">
+    <div><span class="logo b">B</span></div>
+    <div class="logo-2">
+      <span class="logo o">O</span><span class="logo c">C</span
+      ><span class="logo p">P</span>
+    </div>
+  </div>
+  <ul class="navbar-links">
+    <li>
+      <a
+        routerLink="/contact_us"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('contact_us')"
+        >Contact Us</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/jobs"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('jobs')"
+        >Jobs</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/help"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('help')"
+        >Help</a
+      >
+    </li>
+
+    <li>
+      <a
+        routerLink="/login_register"
+        routerLinkActive="active-link"
+        (click)="onNavItemClicked('login_register')"
+        >Login/Register</a
+      >
+    </li>
+
+    <li>
+      <img src="assets/search.png" class="search" />
+    </li>
+  </ul>
+  <div class="navbar-actions">
+    <!-- Add login/logout buttons or user-related actions here -->
+  </div>
+</nav>

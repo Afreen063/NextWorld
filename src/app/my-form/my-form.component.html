@@ -1,0 +1,119 @@
+<div class="container">
+  <div class="sub-container">
+    <div class="flex-l">
+      <div class="child">
+        <div class="child flex-d">
+          <p id="How_can_we_help_">How can we help?</p>
+          <div class="centered-line">''</div>
+          <div id="Lets_talk_about_you_and_your_p">
+            Let’s talk about you and your product vision. Everything we do is
+            customized for your specific needs. We look forward to connecting
+            with you to discuss how PHYTOLAB can help you make your vision a
+            reality! Email to schedule a consult. We will respond to you as soon
+            as we can. We will respond to you as soon as we can.
+          </div>
+          <p id="Locations">Locations</p>
+          <div class="centered-line-2">""</div>
+          <div class="flex-l">
+            <div class="Rectangle_2088">
+              <div>
+                <h1 class="heading">Beaverton</h1>
+                <p class="param">
+                  4145 SW Watson Ave Suite 350 Beaverton, OR 97005
+                </p>
+              </div>
+            </div>
+            <div class="Rectangle_2088">
+              <div>
+                <h1 class="heading">Italy</h1>
+                <p class="param">
+                  Via Enrico Mattie 7 Pogliano Milanese Milano 20010 Italy
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left-image-container">
+          <img src="assets/shutterstock_217105759.png" class="left-image" />
+        </div>
+      </div>
+
+      <div class="size">
+        <form (ngSubmit)="onSubmit()" #userForm="ngForm" class="form">
+          <div class="inputWidth">
+            <label for="name" class="label"
+              >Name <span class="span">*</span></label
+            ><br />
+            <div class="col">
+              <input
+                id="first_name"
+                [(ngModel)]="form.first_name"
+                name="first_name"
+                class="name"
+                placeholder="First"
+              />
+              <input
+                id="last_name"
+                [(ngModel)]="form.last_name"
+                name="last_name"
+                class="name"
+                placeholder="Last"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="email" class="label"
+              >Email <span class="span">*</span></label
+            ><br />
+            <input
+              id="email"
+              [(ngModel)]="form.email"
+              name="email"
+              class="name inputWidth"
+            />
+          </div>
+
+          <div>
+            <label for="phone" class="label"
+              >Phone <span class="span">*</span></label
+            ><br />
+            <input
+              id="phone"
+              [(ngModel)]="form.phone"
+              name="email"
+              class="name inputWidth"
+            />
+          </div>
+
+          <div>
+            <label for="subject" class="label"
+              >Subject <span class="span">*</span></label
+            ><br />
+            <input
+              id="subject"
+              [(ngModel)]="form.subject"
+              name="subject"
+              class="name inputWidth"
+            />
+          </div>
+
+          <div>
+            <label for="message" class="label"
+              >Message <span class="span">*</span></label
+            ><br />
+            <textarea
+              id="message"
+              [(ngModel)]="form.message"
+              name="message"
+              class="name inputWidth inputHeight"
+            ></textarea>
+          </div>
+          <div class="margin">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
